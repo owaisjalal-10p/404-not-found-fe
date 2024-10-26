@@ -1,0 +1,242 @@
+{
+  "employees": [
+    {
+      "name": "Ahmad Khan - Designer",
+      "dateOfLastLOE": "2024-09-21",
+      "numberOfLOEsThisYear": 10,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Aisha Siddiqui - Software Engineer",
+      "dateOfLastLOE": "2024-10-15",
+      "numberOfLOEsThisYear": 8,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Hassan Ali - QA",
+      "dateOfLastLOE": "2024-09-30",
+      "numberOfLOEsThisYear": 12,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Fatima Zahra - Project Lead",
+      "dateOfLastLOE": "2024-08-10",
+      "numberOfLOEsThisYear": 5,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Ibrahim Khalid - Scrum Master",
+      "dateOfLastLOE": "2024-10-05",
+      "numberOfLOEsThisYear": 9,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Maryam Saeed - UX Engineer",
+      "dateOfLastLOE": "2024-07-12",
+      "numberOfLOEsThisYear": 6,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Omar Farooq - PM",
+      "dateOfLastLOE": "2024-08-22",
+      "numberOfLOEsThisYear": 14,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Zainab Mustafa - Designer",
+      "dateOfLastLOE": "2024-09-18",
+      "numberOfLOEsThisYear": 7,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Yusuf Ahmed - Software Engineer",
+      "dateOfLastLOE": "2024-06-24",
+      "numberOfLOEsThisYear": 11,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Khadija Nasir - QA",
+      "dateOfLastLOE": "2024-10-14",
+      "numberOfLOEsThisYear": 8,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Bilal Shaikh - PM",
+      "dateOfLastLOE": "2024-07-25",
+      "numberOfLOEsThisYear": 15,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Amna Tariq - Project Lead",
+      "dateOfLastLOE": "2024-08-09",
+      "numberOfLOEsThisYear": 3,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Usman Aslam - UX Engineer",
+      "dateOfLastLOE": "2024-09-11",
+      "numberOfLOEsThisYear": 10,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Saima Noor - Scrum Master",
+      "dateOfLastLOE": "2024-10-12",
+      "numberOfLOEsThisYear": 6,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Faisal Raza - Software Engineer",
+      "dateOfLastLOE": "2024-08-14",
+      "numberOfLOEsThisYear": 12,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Sumaiya Hanif - Designer",
+      "dateOfLastLOE": "2024-07-29",
+      "numberOfLOEsThisYear": 9,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Hamza Malik - QA",
+      "dateOfLastLOE": "2024-09-01",
+      "numberOfLOEsThisYear": 7,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Sana Rehman - Project Lead",
+      "dateOfLastLOE": "2024-08-19",
+      "numberOfLOEsThisYear": 4,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Ali Abbas - PM",
+      "dateOfLastLOE": "2024-09-10",
+      "numberOfLOEsThisYear": 10,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Mariam Sultan - UX Engineer",
+      "dateOfLastLOE": "2024-10-04",
+      "numberOfLOEsThisYear": 5,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Abdul Rahman - Designer",
+      "dateOfLastLOE": "2024-07-18",
+      "numberOfLOEsThisYear": 13,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Layla Hadi - Scrum Master",
+      "dateOfLastLOE": "2024-08-29",
+      "numberOfLOEsThisYear": 3,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Yasir Shah - Software Engineer",
+      "dateOfLastLOE": "2024-09-25",
+      "numberOfLOEsThisYear": 11,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Sarah Munir - QA",
+      "dateOfLastLOE": "2024-07-14",
+      "numberOfLOEsThisYear": 6,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Junaid Qasim - Project Lead",
+      "dateOfLastLOE": "2024-09-06",
+      "numberOfLOEsThisYear": 9,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Hiba Anwar - UX Engineer",
+      "dateOfLastLOE": "2024-10-07",
+      "numberOfLOEsThisYear": 4,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Zaid Mahmood - PM",
+      "dateOfLastLOE": "2024-08-03",
+      "numberOfLOEsThisYear": 8,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Nida Kamil - Designer",
+      "dateOfLastLOE": "2024-07-26",
+      "numberOfLOEsThisYear": 5,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Kamran Bashir - Scrum Master",
+      "dateOfLastLOE": "2024-09-22",
+      "numberOfLOEsThisYear": 10,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Lubna Khalil - QA",
+      "dateOfLastLOE": "2024-08-18",
+      "numberOfLOEsThisYear": 7,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Rashid Javed - Software Engineer",
+      "dateOfLastLOE": "2024-10-01",
+      "numberOfLOEsThisYear": 12,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Safia Habib - PM",
+      "dateOfLastLOE": "2024-09-07",
+      "numberOfLOEsThisYear": 4,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Shahbaz Umer - Project Lead",
+      "dateOfLastLOE": "2024-07-20",
+      "numberOfLOEsThisYear": 14,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Asma Tariq - UX Engineer",
+      "dateOfLastLOE": "2024-09-12",
+      "numberOfLOEsThisYear": 6,
+      "employmentType": "contract",
+      "onBench": true
+    }
+  ]
+}
