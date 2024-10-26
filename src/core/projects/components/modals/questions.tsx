@@ -88,7 +88,6 @@ function Questions(props: IProps){
                             question.isEditMode = true;
                             question.answer = '';
                             updateQuestionState()
-                            debugger
                         }}
                           icon="pi pi-pencil"
                           rounded

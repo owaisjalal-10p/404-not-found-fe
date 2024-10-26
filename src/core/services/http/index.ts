@@ -3,7 +3,7 @@ import axios from 'axios';
 export class Http {
     _channel = null;
     static REQUEST = axios.create({
-        baseURL: process.env.REACT_APP_API_BASE_URL,
+        baseURL: 'https://361f-180-149-216-45.ngrok-free.app/v1/',
         // baseURL: 'http://b1-api-dev.herokuapp.com'
     });
     static axios = axios;

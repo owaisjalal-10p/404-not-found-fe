@@ -6,7 +6,6 @@ import Project from "./core/projects/container/project";
 
 
 function App() {
-
   return (
     <>
       <Project/>

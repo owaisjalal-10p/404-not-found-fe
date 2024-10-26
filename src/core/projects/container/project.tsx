@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import "./project.css";
 import { Card } from "primereact/card";
 import { Button } from "primereact/button";
@@ -12,45 +12,11 @@ import { OverlayPanel } from "primereact/overlaypanel";
 import Questions from "../components/modals/questions";
 import Assumption from "../components/modals/assumptions";
 import EstimationsListModal from "../components/modals/estimations";
+import { ProjectService } from "../services/project.service";
 
 function Project() {
-  const [projects, setProjects] = useState<ProjectData[]>([
-    {
-      clientName: "test client",
-      projectName: "test project",
-      loeType: {
-        name: "L1",
-      },
-      description: "Test description",
-      techStack: [
-        {
-          name: "React.js",
-        },
-        {
-          name: "Angular",
-        },
-        {
-          name: "Svelte",
-        },
-      ],
-      architect: {
-        name: "Ahmad Khan",
-        dateOfLastLOE: "2024-09-21",
-        numberOfLOEsThisYear: 10,
-        employmentType: "permanent",
-        onBench: false,
-      },
-      team: [
-        {
-          name: "Ahmad Khan - Designer",
-          dateOfLastLOE: "2024-09-21",
-          numberOfLOEsThisYear: 10,
-          employmentType: "permanent",
-          onBench: false,
-        },
-      ],
-    },
-  ]);
+  const projectService = new ProjectService();
+  const [projects, setProjects] = useState<ProjectData[]>([]);
   const itemMenuOPRef: any = useRef(null);
   const [isProjectDetailVisible, showProjectDetail] = useState(false);
   const [isEditMode, setIsEditMode] = useState(false);
@@ -185,6 +151,26 @@ function Project() {
   ]);
   const toast = useRef<Toast>(null);
 
+  useEffect(() => {
+    getProjectList()
+  }, []);
+
+  const getProjectList = async () => {
+    let projectList = await projectService.getProjectLOEList();
+    projectList = projectList.map((project: any) => {
+
+        return {
+            ...project, 
+            techStack: project.techStack.split(',').map((stack: string) => ({name: stack})),
+            architect: {name: project.architect},
+            team: project.team.split(',').map((t: string) => ({name: t})),
+            loeType: {name: project.loeType},
+            key: project.id
+        }
+    })
+    setProjects(() => [...projectList])
+  }
+
   const onFileSelect = (e: any) => {
     const uploadedFile = e.files[0];
     if (uploadedFile) {
@@ -198,8 +184,8 @@ function Project() {
     }
   };
 
-  const handleSave = () => {
-    const { clientName, projectName, loeType, description, techStack } = form;
+  const handleSave = async () => {
+    const { clientName, projectName, loeType, description, techStack, architect, team } = form;
 
     if (
       !clientName ||
@@ -216,7 +202,6 @@ function Project() {
       return;
     }
 
-    // Save the project
     if (isEditMode) {
       setProjects((prevProjects) =>
         prevProjects.map((project) =>
@@ -224,7 +209,16 @@ function Project() {
         )
       );
     } else {
-      setProjects((prevProjects) => [...prevProjects, form]);
+        const response = await projectService.createProjectLOE({
+            clientName,
+            projectName,
+            loeType: loeType.name,
+            techStack: techStack?.map((stack: any) => stack.name).join(','),
+            description,
+            architect: {name: architect.name},
+            team: team?.map((t: any) => t.name).join(',')
+        })
+        getProjectList()
     }
 
     setConfirmationProjectName(projectName);
@@ -281,7 +275,7 @@ function Project() {
           <li>
             <Button
               label="Questions"
-              className="p-button-text"
+              className="p-button-text w-full"
               onClick={() => {
                 setVisibleQuestionModal(true);
               }}
@@ -290,7 +284,7 @@ function Project() {
           <li>
             <Button
               label="Assumptions"
-              className="p-button-text"
+              className="p-button-text w-full"
               onClick={() => {
                 setVisibleAssumptionModal(true);
               }}
@@ -299,7 +293,7 @@ function Project() {
           <li>
             <Button
               label="Task breakdown"
-              className="p-button-text"
+              className="p-button-text w-full"
               onClick={() => {
                 setVisibleEstimationsModal(true);
               }}
@@ -311,11 +305,9 @@ function Project() {
   );
 
   const handleQuestionsSaveResponse = (questions: any) => {
-    // const payload =
   };
 
   const handleAssumptionsSaveResponse = (questions: any) => {
-    // const payload =
   };
 
   return (

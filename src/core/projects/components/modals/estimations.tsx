@@ -87,7 +87,7 @@ function EstimationsListModal(props: IProjectDetails) {
     if (estimate["Sub-Modules"] && estimate["Sub-Modules"].length) {
       transformedEstimateObject.children = estimate["Sub-Modules"].map(
         (subModule: any) => {
-          const transformedSubModule = { ...subModule, data: {} };
+          const transformedSubModule = { ...subModule, data: {'Module Name': subModule['Name']} };
           if (subModule.Effort) {
             for (const key in subModule.Effort) {
               transformedSubModule[key] = subModule.Effort[key];
