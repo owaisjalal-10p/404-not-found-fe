@@ -1,0 +1,341 @@
+{
+  "architects": [
+    {
+      "name": "Ahmad Khan",
+      "dateOfLastLOE": "2024-09-21",
+      "numberOfLOEsThisYear": 10,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Aisha Siddiqui",
+      "dateOfLastLOE": "2024-10-15",
+      "numberOfLOEsThisYear": 8,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Hassan Ali",
+      "dateOfLastLOE": "2024-09-30",
+      "numberOfLOEsThisYear": 12,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Fatima Zahra",
+      "dateOfLastLOE": "2024-08-10",
+      "numberOfLOEsThisYear": 5,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Ibrahim Khalid",
+      "dateOfLastLOE": "2024-10-05",
+      "numberOfLOEsThisYear": 9,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Maryam Saeed",
+      "dateOfLastLOE": "2024-07-12",
+      "numberOfLOEsThisYear": 6,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Omar Farooq",
+      "dateOfLastLOE": "2024-08-22",
+      "numberOfLOEsThisYear": 14,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Zainab Mustafa",
+      "dateOfLastLOE": "2024-09-18",
+      "numberOfLOEsThisYear": 7,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Yusuf Ahmed",
+      "dateOfLastLOE": "2024-06-24",
+      "numberOfLOEsThisYear": 11,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Khadija Nasir",
+      "dateOfLastLOE": "2024-10-14",
+      "numberOfLOEsThisYear": 8,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Bilal Shaikh",
+      "dateOfLastLOE": "2024-07-25",
+      "numberOfLOEsThisYear": 15,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Amna Tariq",
+      "dateOfLastLOE": "2024-08-09",
+      "numberOfLOEsThisYear": 3,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Usman Aslam",
+      "dateOfLastLOE": "2024-09-11",
+      "numberOfLOEsThisYear": 10,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Saima Noor",
+      "dateOfLastLOE": "2024-10-12",
+      "numberOfLOEsThisYear": 6,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Faisal Raza",
+      "dateOfLastLOE": "2024-08-14",
+      "numberOfLOEsThisYear": 12,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Sumaiya Hanif",
+      "dateOfLastLOE": "2024-07-29",
+      "numberOfLOEsThisYear": 9,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Hamza Malik",
+      "dateOfLastLOE": "2024-09-01",
+      "numberOfLOEsThisYear": 7,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Sana Rehman",
+      "dateOfLastLOE": "2024-08-19",
+      "numberOfLOEsThisYear": 4,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Ali Abbas",
+      "dateOfLastLOE": "2024-09-10",
+      "numberOfLOEsThisYear": 10,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Mariam Sultan",
+      "dateOfLastLOE": "2024-10-04",
+      "numberOfLOEsThisYear": 5,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Abdul Rahman",
+      "dateOfLastLOE": "2024-07-18",
+      "numberOfLOEsThisYear": 13,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Layla Hadi",
+      "dateOfLastLOE": "2024-08-29",
+      "numberOfLOEsThisYear": 3,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Yasir Shah",
+      "dateOfLastLOE": "2024-09-25",
+      "numberOfLOEsThisYear": 11,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Sarah Munir",
+      "dateOfLastLOE": "2024-07-14",
+      "numberOfLOEsThisYear": 6,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Junaid Qasim",
+      "dateOfLastLOE": "2024-09-06",
+      "numberOfLOEsThisYear": 9,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Hiba Anwar",
+      "dateOfLastLOE": "2024-10-07",
+      "numberOfLOEsThisYear": 4,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Zaid Mahmood",
+      "dateOfLastLOE": "2024-08-03",
+      "numberOfLOEsThisYear": 8,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Nida Kamil",
+      "dateOfLastLOE": "2024-07-26",
+      "numberOfLOEsThisYear": 5,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Kamran Bashir",
+      "dateOfLastLOE": "2024-09-22",
+      "numberOfLOEsThisYear": 10,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Lubna Khalil",
+      "dateOfLastLOE": "2024-08-18",
+      "numberOfLOEsThisYear": 7,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Rashid Javed",
+      "dateOfLastLOE": "2024-10-01",
+      "numberOfLOEsThisYear": 12,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Safia Habib",
+      "dateOfLastLOE": "2024-09-07",
+      "numberOfLOEsThisYear": 4,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Shahbaz Umer",
+      "dateOfLastLOE": "2024-07-20",
+      "numberOfLOEsThisYear": 14,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Asma Tariq",
+      "dateOfLastLOE": "2024-09-12",
+      "numberOfLOEsThisYear": 6,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Imran Zahid",
+      "dateOfLastLOE": "2024-08-25",
+      "numberOfLOEsThisYear": 9,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Naila Aziz",
+      "dateOfLastLOE": "2024-10-08",
+      "numberOfLOEsThisYear": 5,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Raza Malik",
+      "dateOfLastLOE": "2024-09-20",
+      "numberOfLOEsThisYear": 11,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Sahar Iqbal",
+      "dateOfLastLOE": "2024-08-30",
+      "numberOfLOEsThisYear": 3,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Adeel Abbas",
+      "dateOfLastLOE": "2024-09-02",
+      "numberOfLOEsThisYear": 8,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Sadia Rehan",
+      "dateOfLastLOE": "2024-07-31",
+      "numberOfLOEsThisYear": 7,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Kashif Shafi",
+      "dateOfLastLOE": "2024-08-17",
+      "numberOfLOEsThisYear": 10,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Nashra Afzal",
+      "dateOfLastLOE": "2024-09-23",
+      "numberOfLOEsThisYear": 4,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Farhan Butt",
+      "dateOfLastLOE": "2024-07-08",
+      "numberOfLOEsThisYear": 13,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Areeba Shaheen",
+      "dateOfLastLOE": "2024-09-04",
+      "numberOfLOEsThisYear": 6,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Salman Mirza",
+      "dateOfLastLOE": "2024-08-06",
+      "numberOfLOEsThisYear": 11,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Rabia Ansari",
+      "dateOfLastLOE": "2024-10-02",
+      "numberOfLOEsThisYear": 5,
+      "employmentType": "contract",
+      "onBench": true
+    },
+    {
+      "name": "Zubair Khan",
+      "dateOfLastLOE": "2024-09-19",
+      "numberOfLOEsThisYear": 9,
+      "employmentType": "permanent",
+      "onBench": false
+    },
+    {
+      "name": "Mehwish Ijaz",
+      "dateOfLastLOE": "2024-08-02",
+      "numberOfLOEsThisYear": 6,
+      "employmentType": "contract",
+      "onBench": true
+    }
+  ]
+}
+
